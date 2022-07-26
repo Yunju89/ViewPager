@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    tools:context=".viewpager1.SecondFragment">
+    android:background="@color/yellow"
+    tools:context=".viewpager1.FirstFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Viewpager1 두번째 프래그먼트" />
+        android:text="Viewpager2 첫번째 프래그먼트"/>
 
 </FrameLayout>

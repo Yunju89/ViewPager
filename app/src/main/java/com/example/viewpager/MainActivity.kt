@@ -7,6 +7,7 @@ import androidx.databinding.DataBindingUtil
 import com.example.viewpager.databinding.ActivityMainBinding
 import com.example.viewpager.viewpager1.ViewPager1Activity
 import com.example.viewpager.viewpager1.Viewpager1Adapter
+import com.example.viewpager.viewpager2.ViewPager2Activity
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,7 +23,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
         }
 
-
+        binding.viewpager2.setOnClickListener {
+            val myIntent = Intent(this,ViewPager2Activity::class.java)
+            startActivity(myIntent)
+        }
 
     }
 }
